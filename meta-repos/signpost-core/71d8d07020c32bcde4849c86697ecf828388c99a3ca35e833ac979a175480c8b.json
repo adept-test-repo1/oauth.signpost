@@ -1,0 +1,475 @@
+{
+  "id" : "signpost-core",
+  "variants" : [ "b77ff03c0ade883f1c9cae6926a05bf97d6c3ee7d171f10351e5f680ed7ec776", "5a81ac92864956c3b0bbc3cda381ac5ec875adb9ff95490a2bca04b8407821de", "c2ff56d5b0af2c689a8dbd036e65898aec8b74f1bb3d6a101f4cf32294946e1b", "7db55b7bf4efd786e41f856395ad616082f920d859e8b1017bd2960149d61a89", "1ad46a3460c9a8d4b11052852d8f0502ebeca1e333928cdbb872b8ce13df308a", "7720bf6f4b4db65561a380d0fefdfbe10b5bb7e20ddd7a5eb22c8b28d99e17a8", "55b577425b129e3184ace274efebb76a088356e7080aa44fdad94e48cff77fea", "6468f0792face9c01070630b2161f6aec603d1b75aae065fab767d4a7206a44f", "f06372e810ebc066f003e9afeb324a7e6e52dc79ff79fa7acdbf47933315cbe9", "3aefd58627428b41b4dd80837e1373c36c2b3217798dd39bdf6ff23b1a6873e3", "0658ff9ee26d0f324f115990aa85cf6e56ab4fd0aba1d399afc9dfe2c7ca5b3b" ],
+  "configurations" : [ {
+    "id" : "test",
+    "repositories" : [ {
+      "id" : "commons-codec/config/optional",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/compile",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/sources",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/default",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/system",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/master",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/provided",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/runtime",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/javadoc",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/test",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    } ]
+  }, {
+    "id" : "provided",
+    "repositories" : [ {
+      "id" : "commons-codec/config/optional",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/compile",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/sources",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/default",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/system",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/master",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/provided",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/runtime",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/javadoc",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/test",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    } ]
+  }, {
+    "id" : "system",
+    "repositories" : [ {
+      "id" : "commons-codec/config/optional",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/compile",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/sources",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/default",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/system",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/master",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/provided",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/runtime",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/javadoc",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/test",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    } ]
+  }, {
+    "id" : "master",
+    "repositories" : [ {
+      "id" : "commons-codec/config/optional",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/compile",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/sources",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/default",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/system",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/master",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/provided",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/runtime",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/javadoc",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/test",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    } ]
+  }, {
+    "id" : "optional",
+    "repositories" : [ {
+      "id" : "commons-codec/config/optional",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/compile",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/sources",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/default",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/system",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/master",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/provided",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/runtime",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/javadoc",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/test",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    } ]
+  }, {
+    "id" : "compile",
+    "repositories" : [ {
+      "id" : "commons-codec/config/optional",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/compile",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/sources",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/default",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/system",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/master",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/provided",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/runtime",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/javadoc",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/test",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    } ]
+  }, {
+    "id" : "default",
+    "repositories" : [ {
+      "id" : "commons-codec/config/optional",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/compile",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/sources",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/default",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/system",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/master",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/provided",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/runtime",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/javadoc",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/test",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    } ]
+  }, {
+    "id" : "sources",
+    "repositories" : [ {
+      "id" : "commons-codec/config/optional",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/compile",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/sources",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/default",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/system",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/master",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/provided",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/runtime",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/javadoc",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/test",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    } ]
+  }, {
+    "id" : "javadoc",
+    "repositories" : [ {
+      "id" : "commons-codec/config/optional",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/compile",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/sources",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/default",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/system",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/master",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/provided",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/runtime",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/javadoc",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/test",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    } ]
+  }, {
+    "id" : "runtime",
+    "repositories" : [ {
+      "id" : "commons-codec/config/optional",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/compile",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/sources",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/default",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/system",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/master",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/provided",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/runtime",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/javadoc",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/test",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    } ]
+  } ]
+}
