@@ -1,0 +1,2235 @@
+{
+  "id" : "signpost-commonshttp4",
+  "variants" : [ "0e4d9cdc35ff2943894ce93e461695baec6842c89960d1fd54da57dcb40ff7a6", "121813e1dcff54767ad2de9d8ef0707b80e99202ef2e8f44aabdba8b69f3d7c8", "f62826a8c91907208c78873d0c17d027e8fea6d27015e14af36ce453ee43fb3f", "f8c71e6cae68faac6a2f0929cec43bde321c9d3a165a1e70d73f12c94f773723", "d0ee8910edf4c29f0b220cbae9a0b78ecf0ca7dc84a809749757c17c8822db87", "4c081ae5cef3def6020c4a95e33902d08f00b6700db90ffcada3f28ea74f6b9d", "92d75e8645ce7a95c1566dc0acede15b76da99d4dd9c7d24eab14d83a0a9627e", "52bc353af53639ba7159e4b7a81a3278a686fd06c6fbeb5b030361267a416076", "46e3b513118ac70fa50258f2495151352b500ebe73fbd3ad7655686cdb0b4c75", "257c753c64c769309eb38bdf95fe6cf00e16f74c3ba81c71efc9860e218d9c08", "e4ed5465f22fcfdc367696c0ced5627dcca54064a009b24aa0b6030995450652" ],
+  "configurations" : [ {
+    "id" : "test",
+    "repositories" : [ {
+      "id" : "commons-logging/config/javadoc",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpclient/config/test",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "commons-codec/config/optional",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "httpcore/config/system",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "signpost-core/config/optional",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "httpclient/config/optional",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpclient/config/javadoc",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "commons-codec",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/sources",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-codec/config/compile",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/sources",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpcore/config/javadoc",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "signpost-core/config/compile",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "commons-codec/config/default",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "signpost-core/config/test",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "httpcore/config/sources",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "commons-logging/config/provided",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-logging/config/master",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-codec/config/system",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "httpcore/config/optional",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpclient/config/default",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpcore/config/default",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "signpost-core/config/runtime",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "commons-codec/config/master",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "httpcore",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "commons-codec/config/provided",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/optional",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "signpost-core/config/master",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "httpcore/config/runtime",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "signpost-core/config/default",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "commons-codec/config/runtime",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/system",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "signpost-core",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "commons-logging/config/compile",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpcore/config/provided",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "signpost-core/config/provided",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "httpclient/config/runtime",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "commons-logging/config/default",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpclient/config/provided",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpcore/config/test",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpclient",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpclient/config/master",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "signpost-core/config/sources",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "httpcore/config/master",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "commons-codec/config/javadoc",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "httpclient/config/compile",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpclient/config/system",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "signpost-core/config/system",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "commons-codec/config/test",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "signpost-core/config/javadoc",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "commons-logging/config/runtime",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-logging/config/test",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpclient/config/sources",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpcore/config/compile",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    } ]
+  }, {
+    "id" : "provided",
+    "repositories" : [ {
+      "id" : "commons-logging/config/javadoc",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpclient/config/test",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "commons-codec/config/optional",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "httpcore/config/system",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "signpost-core/config/optional",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "httpclient/config/optional",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpclient/config/javadoc",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "commons-codec",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/sources",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-codec/config/compile",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/sources",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpcore/config/javadoc",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "signpost-core/config/compile",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "commons-codec/config/default",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "signpost-core/config/test",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "httpcore/config/sources",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "commons-logging/config/provided",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-logging/config/master",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-codec/config/system",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "httpcore/config/optional",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpclient/config/default",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpcore/config/default",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "signpost-core/config/runtime",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "commons-codec/config/master",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "httpcore",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "commons-codec/config/provided",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/optional",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "signpost-core/config/master",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "httpcore/config/runtime",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "signpost-core/config/default",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "commons-codec/config/runtime",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/system",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "signpost-core",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "commons-logging/config/compile",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpcore/config/provided",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "signpost-core/config/provided",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "httpclient/config/runtime",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "commons-logging/config/default",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpclient/config/provided",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpcore/config/test",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpclient",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpclient/config/master",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "signpost-core/config/sources",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "httpcore/config/master",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "commons-codec/config/javadoc",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "httpclient/config/compile",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpclient/config/system",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "signpost-core/config/system",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "commons-codec/config/test",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "signpost-core/config/javadoc",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "commons-logging/config/runtime",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-logging/config/test",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpclient/config/sources",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpcore/config/compile",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    } ]
+  }, {
+    "id" : "system",
+    "repositories" : [ {
+      "id" : "commons-logging/config/javadoc",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpclient/config/test",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "commons-codec/config/optional",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "httpcore/config/system",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "signpost-core/config/optional",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "httpclient/config/optional",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpclient/config/javadoc",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "commons-codec",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/sources",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-codec/config/compile",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/sources",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpcore/config/javadoc",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "signpost-core/config/compile",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "commons-codec/config/default",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "signpost-core/config/test",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "httpcore/config/sources",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "commons-logging/config/provided",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-logging/config/master",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-codec/config/system",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "httpcore/config/optional",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpclient/config/default",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpcore/config/default",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "signpost-core/config/runtime",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "commons-codec/config/master",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "httpcore",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "commons-codec/config/provided",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/optional",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "signpost-core/config/master",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "httpcore/config/runtime",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "signpost-core/config/default",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "commons-codec/config/runtime",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/system",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "signpost-core",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "commons-logging/config/compile",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpcore/config/provided",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "signpost-core/config/provided",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "httpclient/config/runtime",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "commons-logging/config/default",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpclient/config/provided",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpcore/config/test",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpclient",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpclient/config/master",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "signpost-core/config/sources",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "httpcore/config/master",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "commons-codec/config/javadoc",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "httpclient/config/compile",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpclient/config/system",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "signpost-core/config/system",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "commons-codec/config/test",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "signpost-core/config/javadoc",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "commons-logging/config/runtime",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-logging/config/test",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpclient/config/sources",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpcore/config/compile",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    } ]
+  }, {
+    "id" : "master",
+    "repositories" : [ {
+      "id" : "commons-logging/config/javadoc",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpclient/config/test",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "commons-codec/config/optional",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "httpcore/config/system",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "signpost-core/config/optional",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "httpclient/config/optional",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpclient/config/javadoc",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "commons-codec",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/sources",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-codec/config/compile",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/sources",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpcore/config/javadoc",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "signpost-core/config/compile",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "commons-codec/config/default",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "signpost-core/config/test",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "httpcore/config/sources",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "commons-logging/config/provided",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-logging/config/master",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-codec/config/system",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "httpcore/config/optional",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpclient/config/default",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpcore/config/default",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "signpost-core/config/runtime",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "commons-codec/config/master",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "httpcore",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "commons-codec/config/provided",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/optional",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "signpost-core/config/master",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "httpcore/config/runtime",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "signpost-core/config/default",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "commons-codec/config/runtime",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/system",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "signpost-core",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "commons-logging/config/compile",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpcore/config/provided",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "signpost-core/config/provided",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "httpclient/config/runtime",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "commons-logging/config/default",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpclient/config/provided",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpcore/config/test",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpclient",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpclient/config/master",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "signpost-core/config/sources",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "httpcore/config/master",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "commons-codec/config/javadoc",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "httpclient/config/compile",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpclient/config/system",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "signpost-core/config/system",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "commons-codec/config/test",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "signpost-core/config/javadoc",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "commons-logging/config/runtime",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-logging/config/test",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpclient/config/sources",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpcore/config/compile",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    } ]
+  }, {
+    "id" : "optional",
+    "repositories" : [ {
+      "id" : "commons-logging/config/javadoc",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpclient/config/test",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "commons-codec/config/optional",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "httpcore/config/system",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "signpost-core/config/optional",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "httpclient/config/optional",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpclient/config/javadoc",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "commons-codec",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/sources",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-codec/config/compile",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/sources",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpcore/config/javadoc",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "signpost-core/config/compile",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "commons-codec/config/default",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "signpost-core/config/test",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "httpcore/config/sources",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "commons-logging/config/provided",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-logging/config/master",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-codec/config/system",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "httpcore/config/optional",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpclient/config/default",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpcore/config/default",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "signpost-core/config/runtime",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "commons-codec/config/master",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "httpcore",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "commons-codec/config/provided",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/optional",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "signpost-core/config/master",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "httpcore/config/runtime",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "signpost-core/config/default",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "commons-codec/config/runtime",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/system",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "signpost-core",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "commons-logging/config/compile",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpcore/config/provided",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "signpost-core/config/provided",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "httpclient/config/runtime",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "commons-logging/config/default",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpclient/config/provided",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpcore/config/test",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpclient",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpclient/config/master",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "signpost-core/config/sources",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "httpcore/config/master",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "commons-codec/config/javadoc",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "httpclient/config/compile",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpclient/config/system",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "signpost-core/config/system",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "commons-codec/config/test",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "signpost-core/config/javadoc",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "commons-logging/config/runtime",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-logging/config/test",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpclient/config/sources",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpcore/config/compile",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    } ]
+  }, {
+    "id" : "compile",
+    "repositories" : [ {
+      "id" : "commons-logging/config/javadoc",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpclient/config/test",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "commons-codec/config/optional",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "httpcore/config/system",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "signpost-core/config/optional",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "httpclient/config/optional",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpclient/config/javadoc",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "commons-codec",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/sources",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-codec/config/compile",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/sources",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpcore/config/javadoc",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "signpost-core/config/compile",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "commons-codec/config/default",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "signpost-core/config/test",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "httpcore/config/sources",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "commons-logging/config/provided",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-logging/config/master",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-codec/config/system",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "httpcore/config/optional",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpclient/config/default",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpcore/config/default",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "signpost-core/config/runtime",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "commons-codec/config/master",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "httpcore",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "commons-codec/config/provided",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/optional",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "signpost-core/config/master",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "httpcore/config/runtime",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "signpost-core/config/default",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "commons-codec/config/runtime",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/system",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "signpost-core",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "commons-logging/config/compile",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpcore/config/provided",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "signpost-core/config/provided",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "httpclient/config/runtime",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "commons-logging/config/default",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpclient/config/provided",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpcore/config/test",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpclient",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpclient/config/master",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "signpost-core/config/sources",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "httpcore/config/master",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "commons-codec/config/javadoc",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "httpclient/config/compile",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpclient/config/system",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "signpost-core/config/system",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "commons-codec/config/test",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "signpost-core/config/javadoc",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "commons-logging/config/runtime",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-logging/config/test",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpclient/config/sources",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpcore/config/compile",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    } ]
+  }, {
+    "id" : "default",
+    "repositories" : [ {
+      "id" : "commons-logging/config/javadoc",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpclient/config/test",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "commons-codec/config/optional",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "httpcore/config/system",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "signpost-core/config/optional",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "httpclient/config/optional",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpclient/config/javadoc",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "commons-codec",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/sources",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-codec/config/compile",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/sources",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpcore/config/javadoc",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "signpost-core/config/compile",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "commons-codec/config/default",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "signpost-core/config/test",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "httpcore/config/sources",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "commons-logging/config/provided",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-logging/config/master",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-codec/config/system",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "httpcore/config/optional",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpclient/config/default",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpcore/config/default",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "signpost-core/config/runtime",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "commons-codec/config/master",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "httpcore",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "commons-codec/config/provided",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/optional",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "signpost-core/config/master",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "httpcore/config/runtime",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "signpost-core/config/default",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "commons-codec/config/runtime",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/system",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "signpost-core",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "commons-logging/config/compile",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpcore/config/provided",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "signpost-core/config/provided",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "httpclient/config/runtime",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "commons-logging/config/default",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpclient/config/provided",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpcore/config/test",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpclient",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpclient/config/master",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "signpost-core/config/sources",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "httpcore/config/master",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "commons-codec/config/javadoc",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "httpclient/config/compile",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpclient/config/system",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "signpost-core/config/system",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "commons-codec/config/test",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "signpost-core/config/javadoc",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "commons-logging/config/runtime",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-logging/config/test",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpclient/config/sources",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpcore/config/compile",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    } ]
+  }, {
+    "id" : "sources",
+    "repositories" : [ {
+      "id" : "commons-logging/config/javadoc",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpclient/config/test",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "commons-codec/config/optional",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "httpcore/config/system",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "signpost-core/config/optional",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "httpclient/config/optional",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpclient/config/javadoc",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "commons-codec",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/sources",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-codec/config/compile",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/sources",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpcore/config/javadoc",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "signpost-core/config/compile",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "commons-codec/config/default",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "signpost-core/config/test",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "httpcore/config/sources",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "commons-logging/config/provided",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-logging/config/master",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-codec/config/system",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "httpcore/config/optional",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpclient/config/default",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpcore/config/default",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "signpost-core/config/runtime",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "commons-codec/config/master",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "httpcore",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "commons-codec/config/provided",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/optional",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "signpost-core/config/master",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "httpcore/config/runtime",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "signpost-core/config/default",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "commons-codec/config/runtime",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/system",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "signpost-core",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "commons-logging/config/compile",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpcore/config/provided",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "signpost-core/config/provided",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "httpclient/config/runtime",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "commons-logging/config/default",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpclient/config/provided",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpcore/config/test",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpclient",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpclient/config/master",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "signpost-core/config/sources",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "httpcore/config/master",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "commons-codec/config/javadoc",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "httpclient/config/compile",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpclient/config/system",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "signpost-core/config/system",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "commons-codec/config/test",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "signpost-core/config/javadoc",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "commons-logging/config/runtime",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-logging/config/test",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpclient/config/sources",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpcore/config/compile",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    } ]
+  }, {
+    "id" : "javadoc",
+    "repositories" : [ {
+      "id" : "commons-logging/config/javadoc",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpclient/config/test",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "commons-codec/config/optional",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "httpcore/config/system",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "signpost-core/config/optional",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "httpclient/config/optional",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpclient/config/javadoc",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "commons-codec",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/sources",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-codec/config/compile",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/sources",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpcore/config/javadoc",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "signpost-core/config/compile",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "commons-codec/config/default",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "signpost-core/config/test",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "httpcore/config/sources",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "commons-logging/config/provided",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-logging/config/master",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-codec/config/system",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "httpcore/config/optional",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpclient/config/default",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpcore/config/default",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "signpost-core/config/runtime",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "commons-codec/config/master",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "httpcore",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "commons-codec/config/provided",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/optional",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "signpost-core/config/master",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "httpcore/config/runtime",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "signpost-core/config/default",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "commons-codec/config/runtime",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/system",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "signpost-core",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "commons-logging/config/compile",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpcore/config/provided",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "signpost-core/config/provided",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "httpclient/config/runtime",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "commons-logging/config/default",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpclient/config/provided",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpcore/config/test",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpclient",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpclient/config/master",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "signpost-core/config/sources",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "httpcore/config/master",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "commons-codec/config/javadoc",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "httpclient/config/compile",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpclient/config/system",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "signpost-core/config/system",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "commons-codec/config/test",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "signpost-core/config/javadoc",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "commons-logging/config/runtime",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-logging/config/test",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpclient/config/sources",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpcore/config/compile",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    } ]
+  }, {
+    "id" : "runtime",
+    "repositories" : [ {
+      "id" : "commons-logging/config/javadoc",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpclient/config/test",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "commons-codec/config/optional",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "httpcore/config/system",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "signpost-core/config/optional",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "httpclient/config/optional",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpclient/config/javadoc",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "commons-codec",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/sources",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-codec/config/compile",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/sources",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpcore/config/javadoc",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "signpost-core/config/compile",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "commons-codec/config/default",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "signpost-core/config/test",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "httpcore/config/sources",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "commons-logging/config/provided",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-logging/config/master",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-codec/config/system",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "httpcore/config/optional",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpclient/config/default",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpcore/config/default",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "signpost-core/config/runtime",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "commons-codec/config/master",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "httpcore",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "commons-codec/config/provided",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/optional",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "signpost-core/config/master",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "httpcore/config/runtime",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "signpost-core/config/default",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "commons-codec/config/runtime",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/system",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "signpost-core",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "commons-logging/config/compile",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpcore/config/provided",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "signpost-core/config/provided",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "httpclient/config/runtime",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "commons-logging/config/default",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpclient/config/provided",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpcore/config/test",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpclient",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpclient/config/master",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "signpost-core/config/sources",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "httpcore/config/master",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "commons-codec/config/javadoc",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "httpclient/config/compile",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpclient/config/system",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "signpost-core/config/system",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "commons-codec/config/test",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "signpost-core/config/javadoc",
+      "repository" : "oauth.signpost",
+      "commit" : "c286cad9e93ce3ed77fb09613802d8adef04032b"
+    }, {
+      "id" : "commons-logging/config/runtime",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-logging/config/test",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpclient/config/sources",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    }, {
+      "id" : "httpcore/config/compile",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "de2b6c5547f68c2643d9a2ac0724bd380eb1d4e0"
+    } ]
+  } ]
+}
